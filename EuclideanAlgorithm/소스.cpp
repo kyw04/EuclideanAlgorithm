@@ -5,11 +5,12 @@ using namespace std;
 // 유클리드 호제법 
 int get_gcd(int u, int v)
 {
-	if (u < v)
-		swap(u, v);
+	//if (u < v)
+	//	swap(u, v);
 	if (v <= 0)
 		return u;
-	return get_gcd(u - v, v);
+	//return get_gcd(u - v, u);
+	return get_gcd(v, u % v);
 }
 
 int main()
