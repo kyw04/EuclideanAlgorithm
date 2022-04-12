@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-// À¯Å¬¸®µå È£Á¦¹ı 
+// ìœ í´ë¦¬ë“œ í˜¸ì œë²•
 int get_gcd(int u, int v)
 {
 	//if (u < v)
