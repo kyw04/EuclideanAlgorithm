@@ -2,6 +2,7 @@
 #include <algorithm>
 using namespace std;
 
+// 유클리드 호제법
 int get_gcd(int u, int v)
 {
 	if (u < v)
