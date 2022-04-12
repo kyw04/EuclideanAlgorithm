@@ -16,5 +16,6 @@ int main()
 	int n1, n2;
 	cin >> n1 >> n2;
 	cout << get_gcd(n1, n2);
+
 	return 0;
 }
